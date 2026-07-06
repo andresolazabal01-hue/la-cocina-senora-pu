@@ -238,6 +238,8 @@ nav.solida{
 .info-icono{ color:var(--jade-claro); font-size:1.1rem; line-height:1.9; }
 .info-item h4{ font-family:var(--sans); font-weight:500; font-size:.75rem; letter-spacing:.28em; text-transform:uppercase; color:var(--oro); margin-bottom:.25rem; }
 .info-item p{ color:var(--crema-70); font-size:.95rem; }
+.enlace-contacto{ color:var(--jade-claro); text-decoration:none; border-bottom:1px dotted var(--jade); transition:color .3s; }
+.enlace-contacto:hover{ color:var(--oro-claro); }
 .mapa{ margin-top:2rem; border:1px solid rgba(201,154,69,.3); position:relative; }
 .mapa iframe{ display:block; width:100%; height:300px; border:0; filter:grayscale(.4) sepia(.25) contrast(.95); }
 .mapa-enlace{ text-align:center; padding:.6rem; background:rgba(20,11,7,.7); border-top:1px solid rgba(201,154,69,.3); font-size:.82rem; }
@@ -557,7 +559,14 @@ footer .separador{ margin:1.6rem auto; }
           <span class="info-icono">✦</span>
           <div>
             <h4>Teléfono / WhatsApp</h4>
-            <p>+502 5055 6480</p>
+            <p><a class="enlace-contacto" href="https://wa.me/50250556480" target="_blank" rel="noopener">+502 5055 6480</a></p>
+          </div>
+        </div>
+        <div class="info-item">
+          <span class="info-icono">✦</span>
+          <div>
+            <h4>Facebook</h4>
+            <p><a class="enlace-contacto" href="https://www.facebook.com/lacocinadelasenorapu/" target="_blank" rel="noopener">@lacocinadelasenorapu</a></p>
           </div>
         </div>
         <div class="info-item">
@@ -645,6 +654,11 @@ footer .separador{ margin:1.6rem auto; }
   <a class="nav-logo" href="#inicio">La Cocina de la Señora <span>Pu</span></a>
   <div class="separador" role="presentation"></div>
   <p>Cocina maya K'iche' · 6a Avenida A 10-16, Zona 1, Ciudad de Guatemala</p>
+  <p>
+    <a class="enlace-contacto" href="https://www.facebook.com/lacocinadelasenorapu/" target="_blank" rel="noopener">Facebook</a>
+    &nbsp;·&nbsp;
+    <a class="enlace-contacto" href="https://wa.me/50250556480" target="_blank" rel="noopener">WhatsApp</a>
+  </p>
   <p>Hecho con maíz, barro y memoria. © <span id="anio"></span> La Cocina de la Señora Pu.</p>
 </footer>
 
